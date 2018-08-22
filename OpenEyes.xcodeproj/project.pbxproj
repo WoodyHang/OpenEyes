@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C2AD657CB132E9CD0FF936A /* Pods_OpenEyes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCB47DE54596A56EF2551DE /* Pods_OpenEyes.framework */; };
+		8F1EDE9020D8E826008D7B5B /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EDE8F20D8E826008D7B5B /* Contain.swift */; };
+		8F1EDE9220D8E974008D7B5B /* Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EDE9120D8E974008D7B5B /* Mask.swift */; };
+		8F1EDE9420D8EA03008D7B5B /* Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EDE9320D8EA03008D7B5B /* Load.swift */; };
+		8F1EDE9720D8EDD1008D7B5B /* MaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EDE9620D8EDD1008D7B5B /* MaskView.swift */; };
+		8F1EE17E20D8EEC0008D7B5B /* MaskView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1EE17D20D8EEC0008D7B5B /* MaskView.xib */; };
+		8F1EE18220D8F294008D7B5B /* UIView+addSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EE18120D8F294008D7B5B /* UIView+addSubview.swift */; };
+		8F1EE18420D8FB26008D7B5B /* UIControl+Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EE18320D8FB26008D7B5B /* UIControl+Loadable.swift */; };
+		8F1EE18620D8FBB1008D7B5B /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EE18520D8FBB1008D7B5B /* ActivityIndicator.swift */; };
+		8F1EE18920D8FCCF008D7B5B /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EE18820D8FCCF008D7B5B /* Response.swift */; };
+		8F1EE18B20D8FE4A008D7B5B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EE18A20D8FE4A008D7B5B /* Message.swift */; };
+		8F1EE18E20D8FED9008D7B5B /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EE18D20D8FED9008D7B5B /* Error.swift */; };
+		8F1EE19120D9056F008D7B5B /* String+Errorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EE19020D9056F008D7B5B /* String+Errorable.swift */; };
+		8F1EE19320D905E6008D7B5B /* AlamofireCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EE19220D905E6008D7B5B /* AlamofireCodable.swift */; };
+		8F5CED8920E22397000B1B09 /* DSToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5CED8820E22397000B1B09 /* DSToast.swift */; };
+		8F5CED8B20E223A3000B1B09 /* DSToastAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5CED8A20E223A3000B1B09 /* DSToastAnimation.swift */; };
+		8F69897720CA851400E7AAF8 /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F69897620CA851400E7AAF8 /* Requestable.swift */; };
+		8F9E6B8720C935B500888385 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9E6B8620C935B500888385 /* Form.swift */; };
 		8FDC4E0120C7725900EEF945 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC4E0020C7725900EEF945 /* AppDelegate.swift */; };
 		8FDC4E0320C7725900EEF945 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC4E0220C7725900EEF945 /* ViewController.swift */; };
 		8FDC4E0620C7725900EEF945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FDC4E0420C7725900EEF945 /* Main.storyboard */; };
@@ -14,6 +32,8 @@
 		8FDC4E0B20C7725900EEF945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FDC4E0920C7725900EEF945 /* LaunchScreen.storyboard */; };
 		8FDC4E1620C7725900EEF945 /* OpenEyesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC4E1520C7725900EEF945 /* OpenEyesTests.swift */; };
 		8FDC4E2120C7725900EEF945 /* OpenEyesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC4E2020C7725900EEF945 /* OpenEyesUITests.swift */; };
+		8FDC4E3120C7B07900EEF945 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC4E3020C7B07900EEF945 /* NetworkClient.swift */; };
+		8FDC4E3320C7B63B00EEF945 /* NetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC4E3220C7B63B00EEF945 /* NetworkProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +54,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		315FBF4929560D7FDEC62C34 /* Pods-OpenEyes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenEyes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenEyes/Pods-OpenEyes.debug.xcconfig"; sourceTree = "<group>"; };
+		8F1EDE8F20D8E826008D7B5B /* Contain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contain.swift; sourceTree = "<group>"; };
+		8F1EDE9120D8E974008D7B5B /* Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask.swift; sourceTree = "<group>"; };
+		8F1EDE9320D8EA03008D7B5B /* Load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Load.swift; sourceTree = "<group>"; };
+		8F1EDE9620D8EDD1008D7B5B /* MaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskView.swift; sourceTree = "<group>"; };
+		8F1EE17D20D8EEC0008D7B5B /* MaskView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MaskView.xib; sourceTree = "<group>"; };
+		8F1EE18120D8F294008D7B5B /* UIView+addSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+addSubview.swift"; sourceTree = "<group>"; };
+		8F1EE18320D8FB26008D7B5B /* UIControl+Loadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+Loadable.swift"; sourceTree = "<group>"; };
+		8F1EE18520D8FBB1008D7B5B /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		8F1EE18820D8FCCF008D7B5B /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		8F1EE18A20D8FE4A008D7B5B /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		8F1EE18D20D8FED9008D7B5B /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		8F1EE19020D9056F008D7B5B /* String+Errorable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Errorable.swift"; sourceTree = "<group>"; };
+		8F1EE19220D905E6008D7B5B /* AlamofireCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireCodable.swift; sourceTree = "<group>"; };
+		8F5CED8820E22397000B1B09 /* DSToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSToast.swift; sourceTree = "<group>"; };
+		8F5CED8A20E223A3000B1B09 /* DSToastAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSToastAnimation.swift; sourceTree = "<group>"; };
+		8F63295020DA5B56000C45C8 /* OpenEyes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenEyes-Bridging-Header.h"; sourceTree = "<group>"; };
+		8F69897620CA851400E7AAF8 /* Requestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requestable.swift; sourceTree = "<group>"; };
+		8F9E6B8620C935B500888385 /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
 		8FDC4DFD20C7725900EEF945 /* OpenEyes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenEyes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FDC4E0020C7725900EEF945 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FDC4E0220C7725900EEF945 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +86,10 @@
 		8FDC4E1C20C7725900EEF945 /* OpenEyesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenEyesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FDC4E2020C7725900EEF945 /* OpenEyesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenEyesUITests.swift; sourceTree = "<group>"; };
 		8FDC4E2220C7725900EEF945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FDC4E3020C7B07900EEF945 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		8FDC4E3220C7B63B00EEF945 /* NetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProtocol.swift; sourceTree = "<group>"; };
+		9CCB47DE54596A56EF2551DE /* Pods_OpenEyes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenEyes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58B73ED29C47E23544C1349 /* Pods-OpenEyes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenEyes.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenEyes/Pods-OpenEyes.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C2AD657CB132E9CD0FF936A /* Pods_OpenEyes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +118,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		677F0443E1875C6732E55ABE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				315FBF4929560D7FDEC62C34 /* Pods-OpenEyes.debug.xcconfig */,
+				B58B73ED29C47E23544C1349 /* Pods-OpenEyes.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8F1EDE8E20D8E80A008D7B5B /* Load */ = {
+			isa = PBXGroup;
+			children = (
+				8F1EDE8F20D8E826008D7B5B /* Contain.swift */,
+				8F1EDE9120D8E974008D7B5B /* Mask.swift */,
+				8F1EDE9320D8EA03008D7B5B /* Load.swift */,
+			);
+			path = Load;
+			sourceTree = "<group>";
+		};
+		8F1EDE9520D8ED40008D7B5B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F1EDE9620D8EDD1008D7B5B /* MaskView.swift */,
+				8F1EE18520D8FBB1008D7B5B /* ActivityIndicator.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F1EE17F20D8EECC008D7B5B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8F1EE17D20D8EEC0008D7B5B /* MaskView.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8F1EE18020D8F0F8008D7B5B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8F1EE18120D8F294008D7B5B /* UIView+addSubview.swift */,
+				8F1EE18320D8FB26008D7B5B /* UIControl+Loadable.swift */,
+				8F1EE19020D9056F008D7B5B /* String+Errorable.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8F1EE18720D8FCB7008D7B5B /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				8F1EE18820D8FCCF008D7B5B /* Response.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		8F1EE18C20D8FEC1008D7B5B /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				8F1EE18D20D8FED9008D7B5B /* Error.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		8F1EE18F20D8FEE2008D7B5B /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				8F1EE18A20D8FE4A008D7B5B /* Message.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		8F31605120DC959000FCBC58 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8F31605220DC95B800FCBC58 /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8F31605220DC95B800FCBC58 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8F31605320DC95CC00FCBC58 /* Views */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8F31605320DC95CC00FCBC58 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8FF5BE0620E0F0B300D9AF66 /* DSToast */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		8FDC4DF420C7725900EEF945 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +219,8 @@
 				8FDC4E1420C7725900EEF945 /* OpenEyesTests */,
 				8FDC4E1F20C7725900EEF945 /* OpenEyesUITests */,
 				8FDC4DFE20C7725900EEF945 /* Products */,
+				677F0443E1875C6732E55ABE /* Pods */,
+				D7F14594DDE889575FA22E35 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +237,16 @@
 		8FDC4DFF20C7725900EEF945 /* OpenEyes */ = {
 			isa = PBXGroup;
 			children = (
+				8FDC4E2F20C7A61200EEF945 /* NetWork */,
+				8FDC4E2E20C77ABB00EEF945 /* manager */,
+				8F31605120DC959000FCBC58 /* Classes */,
 				8FDC4E0020C7725900EEF945 /* AppDelegate.swift */,
 				8FDC4E0220C7725900EEF945 /* ViewController.swift */,
 				8FDC4E0420C7725900EEF945 /* Main.storyboard */,
 				8FDC4E0720C7725900EEF945 /* Assets.xcassets */,
 				8FDC4E0920C7725900EEF945 /* LaunchScreen.storyboard */,
 				8FDC4E0C20C7725900EEF945 /* Info.plist */,
+				8F63295020DA5B56000C45C8 /* OpenEyes-Bridging-Header.h */,
 			);
 			path = OpenEyes;
 			sourceTree = "<group>";
@@ -125,6 +269,49 @@
 			path = OpenEyesUITests;
 			sourceTree = "<group>";
 		};
+		8FDC4E2E20C77ABB00EEF945 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
+		8FDC4E2F20C7A61200EEF945 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				8F1EE18F20D8FEE2008D7B5B /* Message */,
+				8F1EE18C20D8FEC1008D7B5B /* Error */,
+				8F1EE18720D8FCB7008D7B5B /* Response */,
+				8F1EE18020D8F0F8008D7B5B /* Extension */,
+				8F1EE17F20D8EECC008D7B5B /* Resources */,
+				8F1EDE9520D8ED40008D7B5B /* View */,
+				8F1EDE8E20D8E80A008D7B5B /* Load */,
+				8F9E6B8620C935B500888385 /* Form.swift */,
+				8FDC4E3020C7B07900EEF945 /* NetworkClient.swift */,
+				8FDC4E3220C7B63B00EEF945 /* NetworkProtocol.swift */,
+				8F69897620CA851400E7AAF8 /* Requestable.swift */,
+				8F1EE19220D905E6008D7B5B /* AlamofireCodable.swift */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		8FF5BE0620E0F0B300D9AF66 /* DSToast */ = {
+			isa = PBXGroup;
+			children = (
+				8F5CED8820E22397000B1B09 /* DSToast.swift */,
+				8F5CED8A20E223A3000B1B09 /* DSToastAnimation.swift */,
+			);
+			path = DSToast;
+			sourceTree = "<group>";
+		};
+		D7F14594DDE889575FA22E35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CCB47DE54596A56EF2551DE /* Pods_OpenEyes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +319,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FDC4E2520C7725900EEF945 /* Build configuration list for PBXNativeTarget "OpenEyes" */;
 			buildPhases = (
+				B354C6B64F3DA9C16F762B87 /* [CP] Check Pods Manifest.lock */,
 				8FDC4DF920C7725900EEF945 /* Sources */,
 				8FDC4DFA20C7725900EEF945 /* Frameworks */,
 				8FDC4DFB20C7725900EEF945 /* Resources */,
+				800BA679F3A9962AAC4336CF /* [CP] Embed Pods Frameworks */,
+				5B95213211CBBE33A9009BC4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +383,7 @@
 				TargetAttributes = {
 					8FDC4DFC20C7725900EEF945 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					8FDC4E1020C7725900EEF945 = {
@@ -232,6 +423,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F1EE17E20D8EEC0008D7B5B /* MaskView.xib in Resources */,
 				8FDC4E0B20C7725900EEF945 /* LaunchScreen.storyboard in Resources */,
 				8FDC4E0820C7725900EEF945 /* Assets.xcassets in Resources */,
 				8FDC4E0620C7725900EEF945 /* Main.storyboard in Resources */,
@@ -254,13 +446,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B95213211CBBE33A9009BC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenEyes/Pods-OpenEyes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		800BA679F3A9962AAC4336CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OpenEyes/Pods-OpenEyes-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenEyes/Pods-OpenEyes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B354C6B64F3DA9C16F762B87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenEyes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8FDC4DF920C7725900EEF945 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F1EE18E20D8FED9008D7B5B /* Error.swift in Sources */,
+				8F1EDE9720D8EDD1008D7B5B /* MaskView.swift in Sources */,
+				8F1EE18420D8FB26008D7B5B /* UIControl+Loadable.swift in Sources */,
+				8F1EE18220D8F294008D7B5B /* UIView+addSubview.swift in Sources */,
+				8FDC4E3320C7B63B00EEF945 /* NetworkProtocol.swift in Sources */,
+				8F5CED8B20E223A3000B1B09 /* DSToastAnimation.swift in Sources */,
+				8F5CED8920E22397000B1B09 /* DSToast.swift in Sources */,
+				8F1EE18620D8FBB1008D7B5B /* ActivityIndicator.swift in Sources */,
+				8F1EDE9220D8E974008D7B5B /* Mask.swift in Sources */,
+				8F1EE19320D905E6008D7B5B /* AlamofireCodable.swift in Sources */,
+				8F1EE18920D8FCCF008D7B5B /* Response.swift in Sources */,
 				8FDC4E0320C7725900EEF945 /* ViewController.swift in Sources */,
+				8F9E6B8720C935B500888385 /* Form.swift in Sources */,
+				8F1EDE9420D8EA03008D7B5B /* Load.swift in Sources */,
+				8F1EE19120D9056F008D7B5B /* String+Errorable.swift in Sources */,
+				8F69897720CA851400E7AAF8 /* Requestable.swift in Sources */,
 				8FDC4E0120C7725900EEF945 /* AppDelegate.swift in Sources */,
+				8F1EE18B20D8FE4A008D7B5B /* Message.swift in Sources */,
+				8F1EDE9020D8E826008D7B5B /* Contain.swift in Sources */,
+				8FDC4E3120C7B07900EEF945 /* NetworkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,29 +690,42 @@
 		};
 		8FDC4E2620C7725900EEF945 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 315FBF4929560D7FDEC62C34 /* Pods-OpenEyes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WR5XKZ83R7;
 				INFOPLIST_FILE = OpenEyes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Woodyhang.OpenEyes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenEyes/OpenEyes-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
 		8FDC4E2720C7725900EEF945 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B58B73ED29C47E23544C1349 /* Pods-OpenEyes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WR5XKZ83R7;
 				INFOPLIST_FILE = OpenEyes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Woodyhang.OpenEyes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenEyes/OpenEyes-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
