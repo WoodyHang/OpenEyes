@@ -68,9 +68,15 @@ class OPTabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+      
         addChildViewControllers()
+        replaceSystemTabBar()
     }
 
+    private func replaceSystemTabBar() {
+        let tabbar = OPTabBar()
+        self.setValue(tabbar, forKey: "tabBar")
+    }
     private func addChildViewControllers() {
         setupOneChildViewController(image: Const.getUnselectedImage(.home)!, selectedImage: Const.getSelectedImage(.home)!, controller: ViewController())
 
@@ -85,8 +91,6 @@ class OPTabBarViewController: UITabBarController {
     // MARK: - 添加一个子视图的控制器
     private func setupOneChildViewController(_ title: String? = "", image: UIImage, selectedImage: UIImage, controller: UIViewController) {
         controller.tabBarItem = UITabBarItem(title: title, image: image, selectedImage: selectedImage)
-        controller.tabBarItem.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: 100)
-        //self.viewControllers?.append(UINavigationController(rootViewController: controller))
         self.addChildViewController(controller)
     }
 }

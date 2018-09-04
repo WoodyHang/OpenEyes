@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1C2AD657CB132E9CD0FF936A /* Pods_OpenEyes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCB47DE54596A56EF2551DE /* Pods_OpenEyes.framework */; };
+		4E6478E3213D38E600971C20 /* OPTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6478E2213D38E600971C20 /* OPTabBar.swift */; };
+		4E6478E6213D3E1600971C20 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6478E5213D3E1600971C20 /* UIViewExtension.swift */; };
+		4E72FB5C213E28D900D17561 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E72FB5B213E28D900D17561 /* UIImageExtension.swift */; };
 		8F1EDE9020D8E826008D7B5B /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EDE8F20D8E826008D7B5B /* Contain.swift */; };
 		8F1EDE9220D8E974008D7B5B /* Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EDE9120D8E974008D7B5B /* Mask.swift */; };
 		8F1EDE9420D8EA03008D7B5B /* Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EDE9320D8EA03008D7B5B /* Load.swift */; };
@@ -34,7 +37,6 @@
 		8FDC4E2120C7725900EEF945 /* OpenEyesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC4E2020C7725900EEF945 /* OpenEyesUITests.swift */; };
 		8FDC4E3120C7B07900EEF945 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC4E3020C7B07900EEF945 /* NetworkClient.swift */; };
 		8FDC4E3320C7B63B00EEF945 /* NetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC4E3220C7B63B00EEF945 /* NetworkProtocol.swift */; };
-		8FDFA1ED213BD5B400F43E18 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDFA1EC213BD5B400F43E18 /* FirstViewController.swift */; };
 		8FE5823D213BCC48005F48CA /* OPTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE5823C213BCC48005F48CA /* OPTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +59,9 @@
 
 /* Begin PBXFileReference section */
 		315FBF4929560D7FDEC62C34 /* Pods-OpenEyes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenEyes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenEyes/Pods-OpenEyes.debug.xcconfig"; sourceTree = "<group>"; };
+		4E6478E2213D38E600971C20 /* OPTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OPTabBar.swift; sourceTree = "<group>"; };
+		4E6478E5213D3E1600971C20 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		4E72FB5B213E28D900D17561 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		8F1EDE8F20D8E826008D7B5B /* Contain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contain.swift; sourceTree = "<group>"; };
 		8F1EDE9120D8E974008D7B5B /* Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask.swift; sourceTree = "<group>"; };
 		8F1EDE9320D8EA03008D7B5B /* Load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Load.swift; sourceTree = "<group>"; };
@@ -90,7 +95,6 @@
 		8FDC4E2220C7725900EEF945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FDC4E3020C7B07900EEF945 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		8FDC4E3220C7B63B00EEF945 /* NetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProtocol.swift; sourceTree = "<group>"; };
-		8FDFA1EC213BD5B400F43E18 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		8FE5823C213BCC48005F48CA /* OPTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OPTabBarViewController.swift; sourceTree = "<group>"; };
 		9CCB47DE54596A56EF2551DE /* Pods_OpenEyes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenEyes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58B73ED29C47E23544C1349 /* Pods-OpenEyes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenEyes.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenEyes/Pods-OpenEyes.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +126,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E6478E1213D388C00971C20 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				4E6478E2213D38E600971C20 /* OPTabBar.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		4E6478E4213D3D5C00971C20 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4E6478E5213D3E1600971C20 /* UIViewExtension.swift */,
+				4E72FB5B213E28D900D17561 /* UIImageExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		677F0443E1875C6732E55ABE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,7 +218,6 @@
 			children = (
 				8F31605220DC95B800FCBC58 /* Main */,
 				8FE5823C213BCC48005F48CA /* OPTabBarViewController.swift */,
-				8FDFA1EC213BD5B400F43E18 /* FirstViewController.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -205,6 +225,7 @@
 		8F31605220DC95B800FCBC58 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				4E6478E4213D3D5C00971C20 /* Extension */,
 				8F31605320DC95CC00FCBC58 /* Views */,
 			);
 			path = Main;
@@ -213,6 +234,7 @@
 		8F31605320DC95CC00FCBC58 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4E6478E1213D388C00971C20 /* TabBar */,
 				8FF5BE0620E0F0B300D9AF66 /* DSToast */,
 			);
 			path = Views;
@@ -520,6 +542,7 @@
 				8FDC4E3320C7B63B00EEF945 /* NetworkProtocol.swift in Sources */,
 				8F5CED8B20E223A3000B1B09 /* DSToastAnimation.swift in Sources */,
 				8F5CED8920E22397000B1B09 /* DSToast.swift in Sources */,
+				4E6478E6213D3E1600971C20 /* UIViewExtension.swift in Sources */,
 				8F1EE18620D8FBB1008D7B5B /* ActivityIndicator.swift in Sources */,
 				8F1EDE9220D8E974008D7B5B /* Mask.swift in Sources */,
 				8F1EE19320D905E6008D7B5B /* AlamofireCodable.swift in Sources */,
@@ -529,12 +552,13 @@
 				8FE5823D213BCC48005F48CA /* OPTabBarViewController.swift in Sources */,
 				8F1EDE9420D8EA03008D7B5B /* Load.swift in Sources */,
 				8F1EE19120D9056F008D7B5B /* String+Errorable.swift in Sources */,
+				4E6478E3213D38E600971C20 /* OPTabBar.swift in Sources */,
 				8F69897720CA851400E7AAF8 /* Requestable.swift in Sources */,
 				8FDC4E0120C7725900EEF945 /* AppDelegate.swift in Sources */,
 				8F1EE18B20D8FE4A008D7B5B /* Message.swift in Sources */,
 				8F1EDE9020D8E826008D7B5B /* Contain.swift in Sources */,
 				8FDC4E3120C7B07900EEF945 /* NetworkClient.swift in Sources */,
-				8FDFA1ED213BD5B400F43E18 /* FirstViewController.swift in Sources */,
+				4E72FB5C213E28D900D17561 /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
